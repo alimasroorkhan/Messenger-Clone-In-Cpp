@@ -13,8 +13,8 @@
 using namespace std;
 std::mutex fileMutex;
 
-string log_file = "C:/Users/dell/OneDrive/Desktop/project/loginfo.txt";
-string folder_location = "C:/Users/dell/OneDrive/Desktop/project";
+string log_file = "LOCATION OF FILE";
+string folder_location = "LOCATION OF FILE";
 
 
 class NextClass {
