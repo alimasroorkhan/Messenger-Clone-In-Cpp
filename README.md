@@ -40,3 +40,9 @@ class User
  void message_friends()
 }
 
+# Sending a Message 
+A file stores a list of each user’s friends, and only prints the users connected in the network. Following the same logic of numeric file naming defined earlier, this unique file is also used to store messages exchanged between users.
+
+By simply printing the contents of these numerically named text files, we can retrieve the chat history, which updates instantly across devices.
+
+So, how are we enabling real-time chatting between devices? We’re utilizing a clever solution—a software called Google Drive Desktop, which acts as our server, seamlessly syncing messages between devices.
